@@ -10,7 +10,10 @@ use praxis_core::config::ABSOLUTE_MAX_BODY_BYTES;
 use praxis_filter::{BodyBuffer, BodyMode, FilterAction, FilterPipeline, Rejection};
 use tracing::error;
 
-use super::super::{context::PingoraRequestCtx, convert::send_rejection};
+use super::super::{
+    context::{FilterWriteback, PingoraRequestCtx},
+    convert::send_rejection,
+};
 
 // -----------------------------------------------------------------------------
 // Request Body Filters
@@ -95,7 +98,7 @@ pub(super) async fn execute(
         _ => tracing::error!("unhandled BodyMode variant in request body filter"),
     }
 
-    let (result, body_bytes, cluster, upstream, extensions, filter_metadata, filter_state, executed_indices, body_done) = {
+    let (result, body_bytes, upstream, writeback) = {
         let mut fctx = ctx.filter_context_for(pipeline, None).ok_or_else(|| {
             pingora_core::Error::explain(
                 pingora_core::ErrorType::InternalError,
@@ -106,23 +109,13 @@ pub(super) async fn execute(
         (
             r,
             fctx.request_body_bytes,
-            fctx.cluster,
-            fctx.upstream,
-            fctx.extensions,
-            fctx.filter_metadata,
-            fctx.filter_state,
-            fctx.executed_filter_indices,
-            fctx.body_done_indices,
+            fctx.upstream.take(),
+            FilterWriteback::from(fctx),
         )
     };
+    ctx.apply_writeback(writeback);
     ctx.request_body_bytes = body_bytes;
-    ctx.cluster = cluster;
     ctx.upstream = upstream;
-    ctx.extensions = extensions;
-    ctx.filter_metadata = filter_metadata;
-    ctx.filter_state = filter_state;
-    ctx.cached_executed_filter_indices = executed_indices;
-    ctx.cached_body_done_indices = body_done;
 
     match result {
         Ok(FilterAction::Continue | FilterAction::BodyDone) => {
