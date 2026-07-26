@@ -1,0 +1,65 @@
+# SOLVER 11/16 — hard_idx.txt positions 561-616 = cube indices 767-822
+# Run halted by coordinator before completion (2026-07-26 ~05:00 UTC).
+# NO cube fully closed. ZERO SAT solutions observed in any solved subcube.
+# Toolchain: SMS 464f12f1 + sms_gmp_link.patch + Glasgow; checksums of
+# d5cubes_deep.icnf, sms40_d5.cnf, hard_idx.txt verified against STATUS.md.
+# Protocol: 15s direct (all timed out), level-1 split cutoff 160 (cap 120k),
+# 30s subcube timeout, level-2 resplit cutoff 200 / 60s.
+# "OPEN partial a/b to=t" = a of b level-1 subcubes attempted, t of those a
+# timed out (pending level-2), all completed ones UNSAT, 0 SAT.
+767 OPEN # split truncated >120k subcubes at cutoffs 160 AND 135; needs lower cutoff or special handling
+768 OPEN partial 1070/2583 to=81
+769 OPEN # level-1 (872 subcubes) + level-2 nearly done; 2 of 1400 level-2 subcubes of subcube 527 still timeout at 60s; deep (level-3) resume was in progress when halted
+770 OPEN partial 750/2376 to=78
+771 OPEN partial 746/2380 to=78
+772 OPEN partial 753/2673 to=73
+773 OPEN partial 2075/4086 to=84
+774 OPEN partial 3725/41819 to=83
+775 OPEN partial 3658/22407 to=77
+776 OPEN partial 19/9002 to=19
+777 OPEN
+778 OPEN
+779 OPEN
+780 OPEN
+781 OPEN
+782 OPEN
+783 OPEN
+784 OPEN
+785 OPEN
+786 OPEN
+787 OPEN
+788 OPEN
+789 OPEN
+790 OPEN
+791 OPEN
+792 OPEN
+793 OPEN
+794 OPEN
+795 OPEN
+796 OPEN
+797 OPEN
+798 OPEN
+799 OPEN
+800 OPEN
+801 OPEN
+802 OPEN
+803 OPEN
+804 OPEN
+805 OPEN
+806 OPEN
+807 OPEN
+808 OPEN
+809 OPEN
+810 OPEN
+811 OPEN
+812 OPEN
+813 OPEN
+814 OPEN
+815 OPEN
+816 OPEN
+817 OPEN
+818 OPEN
+819 OPEN
+820 OPEN
+821 OPEN
+822 OPEN
