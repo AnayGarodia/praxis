@@ -1,0 +1,56 @@
+358 OPEN  # partial: 3814/102719 subcubes UNSAT, 89 L2-timeouts pending, 0 SAT
+359 OPEN  # partial: all 2210 subcubes attempted, 81 L2-timeouts pending recursion, 0 SAT
+360 OPEN  # partial: 1114/2554 subcubes UNSAT, 93 L2-timeouts pending, 0 SAT
+361 OPEN  # split truncated at 120000 subcubes (cutoff 160); needs cutoff-135 re-split
+362 OPEN  # partial: 1103/2374 subcubes UNSAT, 78 L2-timeouts pending, 0 SAT
+363 OPEN  # partial: 14745/16728 subcubes UNSAT, 79 L2-timeouts pending, 0 SAT
+364 OPEN  # partial: 2539/2688 subcubes UNSAT, 84 L2-timeouts pending, 0 SAT
+365 OPEN  # partial: 3814/7027 subcubes UNSAT, 91 L2-timeouts pending, 0 SAT
+366 OPEN  # not started
+367 OPEN  # partial: 818/2084 subcubes UNSAT, 2 L2-timeouts, 0 SAT
+368 OPEN  # not started
+369 OPEN  # partial: all 12882 subcubes attempted, 73 L2-timeouts pending recursion, 0 SAT
+370 OPEN  # not started
+371 OPEN  # not started
+372 OPEN  # not started
+373 OPEN  # not started
+374 OPEN  # not started
+375 OPEN  # not started
+376 OPEN  # not started
+377 OPEN  # partial: 834/1195 subcubes UNSAT, 10 L2-timeouts, 0 SAT
+378 OPEN  # not started
+379 OPEN  # not started
+380 OPEN  # not started
+381 OPEN  # not started
+382 OPEN  # not started
+383 OPEN  # not started
+384 OPEN  # not started
+385 OPEN  # not started
+386 OPEN  # not started
+387 OPEN  # not started
+388 OPEN  # not started
+389 OPEN  # not started
+390 OPEN  # not started
+391 OPEN  # not started
+392 OPEN  # not started
+393 OPEN  # not started
+394 OPEN  # not started
+395 OPEN  # not started
+396 OPEN  # not started
+397 OPEN  # not started
+398 OPEN  # not started
+399 OPEN  # not started
+400 OPEN  # not started
+401 OPEN  # not started
+402 OPEN  # not started
+403 OPEN  # not started
+404 OPEN  # not started
+405 OPEN  # not started
+406 OPEN  # not started
+407 OPEN  # not started
+408 OPEN  # not started
+409 OPEN  # not started
+410 OPEN  # not started
+411 OPEN  # not started
+412 OPEN  # not started
+413 OPEN  # not started
