@@ -1,0 +1,1 @@
+39 UNSAT L1-timeout;cutoff160->1480sub;30s-timeouts:26;cutoff200->l2(26subs);60s-timeouts:6(subs 1312,1353);cutoff240->l3;120s-timeouts:0 3300
