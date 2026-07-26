@@ -1,0 +1,60 @@
+# Solver 12/16 — assigned hard_idx positions 617-672 = cube indices 823-878
+# Run halted by coordinator 2026-07-26 ~04:35 UTC before any cube completed.
+# Pass 1: all 56 cubes TIMEOUT at 15s, 0 SAT.
+# Split phase (cutoff 160, prerun 5, 30s subcube timeout): partial, 0 SAT anywhere.
+823 OPEN  # partial: 1338/2530 subcubes UNSAT, 104 subcube timeouts pending recursion, 0 SAT
+824 OPEN  # partial: 1594/2645 subcubes UNSAT, 115 subcube timeouts pending recursion, 0 SAT
+825 OPEN  # split at cutoff 160 truncated at 120k subcubes; needs re-split at cutoff 135
+826 OPEN  # split at cutoff 160 truncated at 120k subcubes; needs re-split at cutoff 135
+827 OPEN  # partial: 4111/86104 subcubes UNSAT, 112 subcube timeouts pending recursion, 0 SAT
+828 OPEN  # partial: 4118/71979 subcubes UNSAT, 113 subcube timeouts pending recursion, 0 SAT
+829 OPEN  # split at cutoff 160 truncated at 120k subcubes; needs re-split at cutoff 135
+830 OPEN  # 15s TIMEOUT; split not yet started
+831 OPEN  # 15s TIMEOUT; split not yet started
+832 OPEN  # split at cutoff 160 truncated at 120k subcubes; needs re-split at cutoff 135
+833 OPEN  # partial: 605/2481 subcubes UNSAT, 113 subcube timeouts pending recursion, 0 SAT
+834 OPEN  # 15s TIMEOUT; split not yet started
+835 OPEN  # 15s TIMEOUT; split not yet started
+836 OPEN  # split at cutoff 160 truncated at 120k subcubes; needs re-split at cutoff 135
+837 OPEN  # 15s TIMEOUT; split not yet started
+838 OPEN  # 15s TIMEOUT; split not yet started
+839 OPEN  # partial: 5563/42479 subcubes UNSAT, 113 subcube timeouts pending recursion, 0 SAT
+840 OPEN  # 15s TIMEOUT; split not yet started
+841 OPEN  # 15s TIMEOUT; split not yet started
+842 OPEN  # 15s TIMEOUT; split not yet started
+843 OPEN  # split at cutoff 160 truncated at 120k subcubes; needs re-split at cutoff 135
+844 OPEN  # 15s TIMEOUT; split not yet started
+845 OPEN  # 15s TIMEOUT; split not yet started
+846 OPEN  # 15s TIMEOUT; split not yet started
+847 OPEN  # 15s TIMEOUT; split not yet started
+848 OPEN  # 15s TIMEOUT; split not yet started
+849 OPEN  # 15s TIMEOUT; split not yet started
+850 OPEN  # split at cutoff 160 truncated at 120k subcubes; needs re-split at cutoff 135
+851 OPEN  # 15s TIMEOUT; split not yet started
+852 OPEN  # 15s TIMEOUT; split not yet started
+853 OPEN  # 15s TIMEOUT; split not yet started
+854 OPEN  # 15s TIMEOUT; split not yet started
+855 OPEN  # 15s TIMEOUT; split not yet started
+856 OPEN  # 15s TIMEOUT; split not yet started
+857 OPEN  # split at cutoff 160 truncated at 120k subcubes; needs re-split at cutoff 135
+858 OPEN  # 15s TIMEOUT; split not yet started
+859 OPEN  # 15s TIMEOUT; split not yet started
+860 OPEN  # 15s TIMEOUT; split not yet started
+861 OPEN  # 15s TIMEOUT; split not yet started
+862 OPEN  # 15s TIMEOUT; split not yet started
+863 OPEN  # 15s TIMEOUT; split not yet started
+864 OPEN  # split at cutoff 160 truncated at 120k subcubes; needs re-split at cutoff 135
+865 OPEN  # 15s TIMEOUT; split not yet started
+866 OPEN  # 15s TIMEOUT; split not yet started
+867 OPEN  # 15s TIMEOUT; split not yet started
+868 OPEN  # 15s TIMEOUT; split not yet started
+869 OPEN  # 15s TIMEOUT; split not yet started
+870 OPEN  # 15s TIMEOUT; split not yet started
+871 OPEN  # partial: 4001/90993 subcubes UNSAT, 107 subcube timeouts pending recursion, 0 SAT
+872 OPEN  # 15s TIMEOUT; split not yet started
+873 OPEN  # 15s TIMEOUT; split not yet started
+874 OPEN  # 15s TIMEOUT; split not yet started
+875 OPEN  # 15s TIMEOUT; split not yet started
+876 OPEN  # 15s TIMEOUT; split not yet started
+877 OPEN  # 15s TIMEOUT; split not yet started
+878 OPEN  # 15s TIMEOUT; split not yet started
