@@ -1,0 +1,60 @@
+# Solver 14/16, positions 729-784 of hard_idx.txt = cube indices 940-982,989-1001
+# Run halted by coordinator 2026-07-26 ~04:55 UTC before completion.
+# Pass 1: ALL 56 cubes TIMEOUT at 15s (times in mywork/pass1_status.txt). 0 SAT anywhere.
+# No cube fully refuted yet (all have unresolved subcube timeouts or unattempted subcubes) -> all OPEN.
+940 OPEN  # 15s-TIMEOUT; split160 nsub=1848 attempted=1848 subcube_timeouts=96 sols=0 (level3 pending)
+941 OPEN  # 15s-TIMEOUT; split160 nsub=1918 attempted=1918 subcube_timeouts=117 sols=0 (level3 pending)
+942 OPEN  # 15s-TIMEOUT; split160 nsub=2699 attempted=2664 subcube_timeouts=125 sols=0 (interrupted)
+943 OPEN  # 15s-TIMEOUT; split160 nsub=2303 attempted=1921 subcube_timeouts=125 sols=0 (interrupted)
+944 OPEN  # 15s-TIMEOUT; split160 nsub=2465 attempted=2341 subcube_timeouts=127 sols=0 (interrupted)
+945 OPEN  # 15s-TIMEOUT; split160 nsub=2013 attempted=2013 subcube_timeouts=113 sols=0 (level3 pending)
+946 OPEN  # 15s-TIMEOUT; split135 nsub=1762 attempted=126 subcube_timeouts=114 sols=0 (pathological; deep re-split cutoff110 started)
+947 OPEN  # 15s-TIMEOUT; split160 nsub=2037 attempted=1398 subcube_timeouts=31 sols=0 (interrupted)
+948 OPEN  # 15s-TIMEOUT; split160 nsub=2037 attempted=1316 subcube_timeouts=10 sols=0 (interrupted)
+949 OPEN  # 15s-TIMEOUT; split not started
+950 OPEN  # 15s-TIMEOUT; split not started
+951 OPEN  # 15s-TIMEOUT; split not started
+952 OPEN  # 15s-TIMEOUT; split160 nsub=1808 attempted=1239 subcube_timeouts=16 sols=0 (interrupted)
+953 OPEN  # 15s-TIMEOUT; split160 nsub=1871 attempted=1127 subcube_timeouts=9 sols=0 (interrupted)
+954 OPEN  # 15s-TIMEOUT; split not started
+955 OPEN  # 15s-TIMEOUT; split not started
+956 OPEN  # 15s-TIMEOUT; split not started
+957 OPEN  # 15s-TIMEOUT; split not started
+958 OPEN  # 15s-TIMEOUT; split not started
+959 OPEN  # 15s-TIMEOUT; split not started
+960 OPEN  # 15s-TIMEOUT; split not started
+961 OPEN  # 15s-TIMEOUT; split not started
+962 OPEN  # 15s-TIMEOUT; split not started
+963 OPEN  # 15s-TIMEOUT; split not started
+964 OPEN  # 15s-TIMEOUT; split not started
+965 OPEN  # 15s-TIMEOUT; split not started
+966 OPEN  # 15s-TIMEOUT; split not started
+967 OPEN  # 15s-TIMEOUT; split not started
+968 OPEN  # 15s-TIMEOUT; split not started
+969 OPEN  # 15s-TIMEOUT; split not started
+970 OPEN  # 15s-TIMEOUT; split not started
+971 OPEN  # 15s-TIMEOUT; split not started
+972 OPEN  # 15s-TIMEOUT; split not started
+973 OPEN  # 15s-TIMEOUT; split not started
+974 OPEN  # 15s-TIMEOUT; split not started
+975 OPEN  # 15s-TIMEOUT; split not started
+976 OPEN  # 15s-TIMEOUT; split not started
+977 OPEN  # 15s-TIMEOUT; split not started
+978 OPEN  # 15s-TIMEOUT; split not started
+979 OPEN  # 15s-TIMEOUT; split not started
+980 OPEN  # 15s-TIMEOUT; split not started
+981 OPEN  # 15s-TIMEOUT; split not started
+982 OPEN  # 15s-TIMEOUT; split not started
+989 OPEN  # 15s-TIMEOUT; split not started
+990 OPEN  # 15s-TIMEOUT; split not started
+991 OPEN  # 15s-TIMEOUT; split not started
+992 OPEN  # 15s-TIMEOUT; split not started
+993 OPEN  # 15s-TIMEOUT; split not started
+994 OPEN  # 15s-TIMEOUT; split not started
+995 OPEN  # 15s-TIMEOUT; split not started
+996 OPEN  # 15s-TIMEOUT; split not started
+997 OPEN  # 15s-TIMEOUT; split not started
+998 OPEN  # 15s-TIMEOUT; split not started
+999 OPEN  # 15s-TIMEOUT; split not started
+1000 OPEN  # 15s-TIMEOUT; split not started
+1001 OPEN  # 15s-TIMEOUT; split not started
