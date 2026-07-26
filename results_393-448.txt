@@ -1,0 +1,56 @@
+572 OPEN  # partial: 4766/28689 subcubes (cutoff135) UNSAT, 72 subcube timeouts pending, 0 SAT
+573 OPEN  # partial: 2230/100516 subcubes (cutoff160) UNSAT, 78 TO pending, 0 SAT
+574 OPEN  # partial: 2220/88694 UNSAT, 81 TO pending, 0 SAT
+575 OPEN  # partial: 2218/88694 UNSAT, 71 TO pending, 0 SAT
+576 OPEN  # partial: 1052/1312 UNSAT, 82 TO pending, 0 SAT
+577 OPEN  # partial: 2234/58027 UNSAT, 79 TO pending, 0 SAT
+578 OPEN  # partial: 2202/34788 UNSAT, 80 TO pending, 0 SAT
+579 OPEN  # partial: 2235/34890 UNSAT, 73 TO pending, 0 SAT
+580 OPEN  # not started
+581 OPEN  # not started
+582 OPEN  # not started
+583 OPEN  # not started
+584 OPEN  # not started
+585 OPEN  # not started
+586 OPEN  # not started
+587 OPEN  # not started
+588 OPEN  # not started
+589 OPEN  # not started
+590 OPEN  # not started
+591 OPEN  # not started
+592 OPEN  # not started
+593 OPEN  # not started
+594 OPEN  # not started
+595 OPEN  # not started
+596 OPEN  # not started
+597 OPEN  # not started
+598 OPEN  # not started
+599 OPEN  # not started
+600 OPEN  # not started
+601 OPEN  # not started
+602 OPEN  # not started
+603 OPEN  # not started
+604 OPEN  # not started
+605 OPEN  # not started
+606 OPEN  # not started
+607 OPEN  # not started
+608 OPEN  # not started
+609 OPEN  # not started
+610 OPEN  # not started
+611 OPEN  # not started
+612 OPEN  # not started
+613 OPEN  # not started
+614 OPEN  # not started
+615 OPEN  # not started
+616 OPEN  # not started
+617 OPEN  # not started
+618 OPEN  # not started
+619 OPEN  # not started
+620 OPEN  # not started
+621 OPEN  # not started
+622 OPEN  # not started
+623 OPEN  # not started
+624 OPEN  # not started
+625 OPEN  # not started
+626 OPEN  # not started
+627 OPEN  # not started
