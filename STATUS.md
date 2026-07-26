@@ -19,8 +19,13 @@ not bit-reproducible; always use this file.
   harmless (UNSAT is idempotent).
 - SAT solutions found so far anywhere: NONE.
 
-Lead agent owns: cube indices 1-312 (per coordinator: "0-311" in 0-indexed
-terms) plus the ongoing hard-core recursion.
+## Authoritative assignment (2026-07-26)
+
+- Lead agent: hard-core indices in 1..301 (1-based into the canonical cube
+  file) plus the ongoing global hard-core recursion already started.
+- Indices 302-312: SOLVER 4 (lead cedes the overlap; do not double-assign).
+- All other ranges: per coordinator's assignment sheet; the claim-queue in
+  REBALANCE.md supersedes fixed ranges once adopted.
 
 ## What a completed run yields
 
